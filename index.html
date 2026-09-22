@@ -1,119 +1,131 @@
 <!doctype html>
 <html lang="zh-Hant">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>獨立設計師名片</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Noto+Sans+TC:wght@500;700;900&family=Noto+Serif+TC:wght@400;600&display=swap">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>獨立設計師名片</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Noto+Sans+TC:wght@500;700;900&family=Noto+Serif+TC:wght@400;600&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="bg-dots" aria-hidden="true"></div>
-<div id="cursor-ring" aria-hidden="true"></div>
+  <div class="bg-dots" aria-hidden="true"></div>
+  <div id="cursor-ring" aria-hidden="true"></div>
 
-<div class="ticker" role="presentation" aria-hidden="true">
-  <div class="ticker-track">
-    <span>獨立設計師 — INDEPENDENT DESIGNER — 後現代主義 — POSTMODERN — 打破網格 — BREAK THE GRID —</span>
-    <span>獨立設計師 — INDEPENDENT DESIGNER — 後現代主義 — POSTMODERN — 打破網格 — BREAK THE GRID —</span>
+  <div class="ticker" role="presentation" aria-hidden="true">
+    <div class="ticker-track">
+      <span>獨立設計師 — 後現代主義 — 打破網格 — 拒絕對齊 — 混亂是一種選擇 — 完美是一種謊言 — 規則是拿來打破的 — 不對稱萬歲 — 留白不是空白 — 每一像素都是立場 — 我不做安全的設計 — 網格是給害怕的人用的</span>
+      <span>獨立設計師 — 後現代主義 — 打破網格 — 拒絕對齊 — 混亂是一種選擇 — 完美是一種謊言 — 規則是拿來打破的 — 不對稱萬歲 — 留白不是空白 — 每一像素都是立場 — 我不做安全的設計 — 網格是給害怕的人用的</span>
+    </div>
   </div>
-</div>
 
-<div class="wrap">
-  <div class="ghost" aria-hidden="true">[你的名字] · [你的名字] · [你的名字] · </div>
+  <div class="wrap">
+    <div class="ghost" aria-hidden="true">[你的名字] · [你的名字] · [你的名字] · </div>
 
-  <header class="hero">
-    <div class="photo-block" data-parallax="0.02">
-      <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="12" cy="8" r="4"></circle>
-        <path d="M4 20c0-4.4 3.6-7 8-7s8 2.6 8 7"></path>
-      </svg>
-      <span>[你的照片]</span>
-    </div>
-
-    <div class="hero-text" data-parallax="-0.015">
-      <span class="badge">獨立設計師</span>
-      <h1 class="name glitch-name">[你的名字]</h1>
-      <p class="role-line">平面設計 / 品牌識別 / [你的專長]</p>
-      <p class="intro">[用一兩句話說說你是誰、你在做什麼，或最近在乎的事——保持真實的語氣，不需要修飾成履歷。]</p>
-    </div>
-  </header>
-
-  <section class="block" aria-labelledby="about-h">
-    <div class="sec-label"><div class="dash"></div><h2 id="about-h">關於 / About</h2></div>
-    <div class="card" data-settle>
-      <p>[在這裡多寫幾句介紹自己：你的背景、擅長什麼、目前在做的事，或是想讓別人認識你的哪一面。兩到三句話、篇幅適中即可，不需要寫成履歷。]</p>
-    </div>
-  </section>
-
-  <section class="block" aria-labelledby="interests-h">
-    <div class="sec-label"><div class="dash"></div><h2 id="interests-h">興趣與專長 / Interests</h2></div>
-    <div class="tag-field">
-      <span class="tag">攝影</span>
-      <span class="tag">排版設計</span>
-      <span class="tag">獨立出版</span>
-      <span class="tag">街頭觀察</span>
-      <span class="tag">[你的興趣]</span>
-    </div>
-  </section>
-
-  <section class="block" aria-labelledby="connect-h">
-    <div class="sec-label"><div class="dash"></div><h2 id="connect-h">找到我 / Contact</h2></div>
-    <div class="contact-grid">
-
-      <a class="contact-btn" data-hover href="mailto:you@example.com">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-          <rect x="3" y="5" width="18" height="14" rx="1"></rect>
-          <path d="M4 7l8 6 8-6"></path>
+    <header class="hero">
+      <div class="photo-block" data-parallax="0.02">
+        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="8" r="4"></circle>
+          <path d="M4 20c0-4.4 3.6-7 8-7s8 2.6 8 7"></path>
         </svg>
-        <span>
-          <span class="c-label">EMAIL</span>
-          <span class="c-value">[you@example.com]</span>
-        </span>
-      </a>
+        <span>[你的照片]</span>
+      </div>
 
-      <a class="contact-btn" data-hover href="https://instagram.com/">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-          <rect x="4" y="4" width="16" height="16" rx="4"></rect>
-          <circle cx="12" cy="12" r="3.4"></circle>
-        </svg>
-        <span>
-          <span class="c-label">INSTAGRAM</span>
-          <span class="c-value">[@你的帳號]</span>
-        </span>
-      </a>
+      <div class="hero-text" data-parallax="-0.015">
+        <span class="badge">獨立設計師</span>
+        <h1 class="name glitch-name">[你的名字]</h1>
+        <p class="role-line">平面設計 / 品牌識別 / [你的專長]</p>
+        <p class="intro">[用一兩句話說說你是誰、你在做什麼，或最近在乎的事——保持真實的語氣，不需要修飾成履歷。]</p>
+      </div>
+    </header>
 
-      <a class="contact-btn" data-hover href="https://github.com/">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M8 9l-3 3 3 3"></path>
-          <path d="M16 9l3 3-3 3"></path>
-          <path d="M13.5 7l-3 10"></path>
-        </svg>
-        <span>
-          <span class="c-label">GITHUB</span>
-          <span class="c-value">[你的帳號]</span>
-        </span>
-      </a>
+    <section class="block" aria-labelledby="about-h">
+      <div class="sec-label">
+        <div class="dash"></div>
+        <h2 id="about-h">關於 / About</h2>
+      </div>
+      <div class="card" data-settle>
+        <p>[在這裡多寫幾句介紹自己：你的背景、擅長什麼、目前在做的事，或是想讓別人認識你的哪一面。兩到三句話、篇幅適中即可，不需要寫成履歷。]</p>
+      </div>
+    </section>
 
-      <a class="contact-btn" data-hover href="https://example.com/">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="8.2"></circle>
-          <path d="M3.8 12h16.4M12 3.8c2.4 2.3 3.6 5.2 3.6 8.2s-1.2 5.9-3.6 8.2c-2.4-2.3-3.6-5.2-3.6-8.2s1.2-5.9 3.6-8.2z"></path>
-        </svg>
-        <span>
-          <span class="c-label">WEBSITE</span>
-          <span class="c-value">[your-site.com]</span>
-        </span>
-      </a>
+    <section class="block" aria-labelledby="interests-h">
+      <div class="sec-label">
+        <div class="dash"></div>
+        <h2 id="interests-h">興趣與專長 / Interests</h2>
+      </div>
+      <div class="tag-field">
+        <span class="tag">攝影</span>
+        <span class="tag">排版設計</span>
+        <span class="tag">獨立出版</span>
+        <span class="tag">街頭觀察</span>
+        <span class="tag">[你的興趣]</span>
+      </div>
+    </section>
 
-    </div>
-  </section>
+    <section class="block" aria-labelledby="connect-h">
+      <div class="sec-label">
+        <div class="dash"></div>
+        <h2 id="connect-h">找到我 / Contact</h2>
+      </div>
+      <div class="contact-grid">
 
-  <footer>
-    <span class="stamp">© [年份] [你的名字]</span>
-  </footer>
-</div>
+        <a class="contact-btn" data-hover href="mailto:you@example.com">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="5" width="18" height="14" rx="1"></rect>
+            <path d="M4 7l8 6 8-6"></path>
+          </svg>
+          <span>
+            <span class="c-label">EMAIL</span>
+            <span class="c-value">[you@example.com]</span>
+          </span>
+        </a>
 
-<script src="script.js"></script>
+        <a class="contact-btn" data-hover href="https://instagram.com/">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+            <circle cx="12" cy="12" r="3.4"></circle>
+          </svg>
+          <span>
+            <span class="c-label">INSTAGRAM</span>
+            <span class="c-value">[@你的帳號]</span>
+          </span>
+        </a>
+
+        <a class="contact-btn" data-hover href="https://github.com/">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 9l-3 3 3 3"></path>
+            <path d="M16 9l3 3-3 3"></path>
+            <path d="M13.5 7l-3 10"></path>
+          </svg>
+          <span>
+            <span class="c-label">GITHUB</span>
+            <span class="c-value">[你的帳號]</span>
+          </span>
+        </a>
+
+        <a class="contact-btn" data-hover href="https://example.com/">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8.2"></circle>
+            <path d="M3.8 12h16.4M12 3.8c2.4 2.3 3.6 5.2 3.6 8.2s-1.2 5.9-3.6 8.2c-2.4-2.3-3.6-5.2-3.6-8.2s1.2-5.9 3.6-8.2z"></path>
+          </svg>
+          <span>
+            <span class="c-label">WEBSITE</span>
+            <span class="c-value">[your-site.com]</span>
+          </span>
+        </a>
+
+      </div>
+    </section>
+
+    <footer>
+      <span class="stamp">© [年份] [你的名字]</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
